@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
+
+# cloudflare / wrangler
+.wrangler
+
+# claude code local config
+.claude
