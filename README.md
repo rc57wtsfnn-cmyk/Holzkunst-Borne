@@ -24,7 +24,7 @@ npm run build      # erzeugt statischen Export im Ordner out/
 
 ## Deployment (Cloudflare Pages)
 
-Cloudflare Pages ist mit diesem GitHub-Repo verbunden. **Jeder Push auf `master`
+Cloudflare Pages ist mit diesem GitHub-Repo verbunden. **Jeder Push auf `main`
 löst automatisch einen neuen Deploy aus.** Einstellungen im Cloudflare-Projekt:
 
 - **Build-Command:** `npm run build`
