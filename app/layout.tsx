@@ -95,7 +95,7 @@ const localBusinessJsonLd = {
   founder: { "@type": "Person", name: "Julian Borne" },
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Zum Katzbach 27",
+    streetAddress: "Zum Katzbach 10",
     postalCode: "54311",
     addressLocality: "Trierweiler-Udelfangen",
     addressRegion: "Rheinland-Pfalz",
