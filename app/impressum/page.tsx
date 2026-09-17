@@ -19,7 +19,7 @@ export default function ImpressumPage() {
             <br />
             Inh. Julian Borne
             <br />
-            Zum Katzbach 27
+            Zum Katzbach 10
             <br />
             54311 Trierweiler-Udelfangen
           </p>
