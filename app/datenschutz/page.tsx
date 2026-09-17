@@ -15,7 +15,7 @@ export default function DatenschutzPage() {
         <div>
           <h2 className="mb-2 font-serif text-lg text-cream">Verantwortlicher</h2>
           <p>
-            Holzkunst Borne, Inh. Julian Borne, Zum Katzbach 27, 54311
+            Holzkunst Borne, Inh. Julian Borne, Zum Katzbach 10, 54311
             Trierweiler-Udelfangen, info@holzkunst-borne.com
           </p>
         </div>
@@ -53,13 +53,17 @@ export default function DatenschutzPage() {
           <p>
             Wenn du das Formular nutzt, verarbeiten wir deine Angaben (Name,
             Kontaktdaten, Art des Projekts, Nachricht) ausschließlich zur Bearbeitung
-            deiner Anfrage. Der technische Versand erfolgt über Brevo (Sendinblue
-            GmbH), Anschrift ANSCHRIFT_AUS_BREVO_IMPRESSUM_ERGÄNZEN, mit Sitz in der
-            EU. Es findet keine Übermittlung in Drittländer statt. Rechtsgrundlage
-            ist die Anbahnung bzw. Durchführung eines Vertrags (Art. 6 Abs. 1 lit. b
-            DSGVO) sowie unser Interesse an der Beantwortung von Anfragen (Art. 6
-            Abs. 1 lit. f DSGVO). Wir speichern die Daten, bis die Anfrage erledigt
-            ist; gesetzliche Aufbewahrungsfristen bleiben unberührt.
+            deiner Anfrage. Der technische Versand erfolgt über Brevo GmbH,
+            Köpenicker Str. 126, 10179 Berlin, deren Muttergesellschaft Sendinblue
+            SAS (Frankreich) ist. Die Datenspeicherung erfolgt in der EU; im Rahmen
+            der Auftragsverarbeitung (u. a. Support) kann es laut Brevo in
+            Einzelfällen zu einer Verarbeitung außerhalb der EU kommen, abgesichert
+            durch die EU-Standardvertragsklauseln. Mit der Nutzung des Dienstes ist
+            ein Auftragsverarbeitungsvertrag mit Brevo eingeschlossen.
+            Rechtsgrundlage ist die Anbahnung bzw. Durchführung eines Vertrags
+            (Art. 6 Abs. 1 lit. b DSGVO) sowie unser Interesse an der Beantwortung
+            von Anfragen (Art. 6 Abs. 1 lit. f DSGVO). Wir speichern die Daten, bis
+            die Anfrage erledigt ist; gesetzliche Aufbewahrungsfristen bleiben unberührt.
           </p>
         </div>
         <div>
