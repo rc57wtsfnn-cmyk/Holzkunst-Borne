@@ -9,12 +9,12 @@ export default function Footer() {
           <span className="hidden text-faint md:inline">·</span>
           {/* py-1.5 gibt den kleinen Textlinks eine brauchbare Tippfläche auf Touch */}
           <a
-            href="https://maps.google.com/?q=Zum+Katzbach+27,+54311+Trierweiler-Udelfangen"
+            href="https://maps.google.com/?q=Zum+Katzbach+10,+54311+Trierweiler-Udelfangen"
             target="_blank"
             rel="noopener noreferrer"
             className="py-1.5 transition-colors hover:text-cream md:py-0"
           >
-            Zum Katzbach 27, 54311 Trierweiler-Udelfangen
+            Zum Katzbach 10, 54311 Trierweiler-Udelfangen
           </a>
           <span className="hidden text-faint md:inline">·</span>
           <a href="tel:+4916092962709" className="py-1.5 transition-colors hover:text-cream md:py-0">
