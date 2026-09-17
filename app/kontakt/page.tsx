@@ -186,7 +186,7 @@ export default function KontaktPage() {
                 </span>
               </a>
               <a
-                href="https://maps.google.com/?q=Zum+Katzbach+27,+54311+Trierweiler-Udelfangen"
+                href="https://maps.google.com/?q=Zum+Katzbach+10,+54311+Trierweiler-Udelfangen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-5 bg-ink2 p-6 transition-colors hover:bg-ink3"
@@ -202,7 +202,7 @@ export default function KontaktPage() {
                     Werkstatt
                   </span>
                   <span className="font-sans text-[0.92rem] text-cream">
-                    Zum Katzbach 27, 54311 Trierweiler-Udelfangen
+                    Zum Katzbach 10, 54311 Trierweiler-Udelfangen
                   </span>
                 </span>
               </a>
