@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 
-// Noch keine eigene Domain — läuft auf der Vercel-URL. Bei Domain-Kauf hier umstellen.
-const BASE = "https://holzkunst-borne-next.vercel.app";
+const BASE = "https://holzkunst-borne.com";
 
 export const dynamic = "force-static";
 
