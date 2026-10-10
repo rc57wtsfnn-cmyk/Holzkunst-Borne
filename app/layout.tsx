@@ -20,15 +20,14 @@ const inter = Inter({
   weight: ["300", "400", "500"],
 });
 
-// Noch keine eigene Domain — läuft auf der Vercel-URL. Bei Domain-Kauf hier umstellen
-// (og:image/sitemap/robots brechen sonst: sie zeigen auf eine nicht erreichbare Domain).
-const SITE_URL = "https://holzkunst-borne-next.vercel.app";
+// Einheitliche Hauptdomain für Canonical-Links, strukturierte Daten und Social Sharing.
+const SITE_URL = "https://holzkunst-borne.com";
 const OG_IMAGE = "/images/og-treppe.jpg"; // Landscape-Crop des Hero-Startbilds (freischwebende Treppe)
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Holzkunst Borne – Maßgefertigte Treppen, Parkett & Möbel | Region Trier",
+    default: "Schreinermeister Trier & Luxemburg | Treppen, Parkett & Maßmöbel",
     template: "%s – Holzkunst Borne",
   },
   description:
@@ -37,6 +36,9 @@ export const metadata: Metadata = {
     "Schreiner Trier",
     "Tischler Trier",
     "Treppenbau Trier",
+    "Treppenbauer Trier",
+    "Schreiner Luxemburg",
+    "Möbel nach Maß Trier",
     "Maßmöbel Trier",
     "Parkett verlegen Trier",
     "Schreinermeister Trierweiler",
@@ -51,7 +53,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Holzkunst Borne – Maßgefertigtes Handwerk aus der Region Trier",
+    title: "Schreinermeister Julian Borne – Handwerk aus der Region Trier",
     description:
       "Treppen, Parkett und Maßmöbel. Zeitlos. Modern. Langlebig. Jedes Stück ein Unikat.",
     url: SITE_URL,
