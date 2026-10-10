@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 
-// Noch keine eigene Domain — läuft auf der Vercel-URL. Bei Domain-Kauf hier umstellen.
-const BASE = "https://holzkunst-borne-next.vercel.app";
+const BASE = "https://holzkunst-borne.com";
 
 export const dynamic = "force-static";
 
@@ -11,6 +10,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${BASE}/`, lastModified: now, changeFrequency: "monthly", priority: 1 },
     { url: `${BASE}/projekte`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${BASE}/kontakt`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/kontakt`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE}/schreiner-trier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/treppenbau-trier-luxemburg`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/moebel-nach-mass-trier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
   ];
 }
