@@ -14,7 +14,7 @@ const leistungen = [
     title: "Treppen",
     text: "Freischwebend, mit Glasgeländer oder klassisch — Treppen, die Räume in Szene setzen. Auf Wunsch mit indirekter LED-Beleuchtung.",
     img: teaserImages.treppen,
-    href: "/projekte#treppen",
+    href: "/treppenbau-trier-luxemburg",
   },
   {
     num: "02",
@@ -28,7 +28,7 @@ const leistungen = [
     title: "Maßmöbel & Türen",
     text: "Einbauschränke, Badmöbel, Esstische, Innentüren — gefertigt für den Raum, den du dir vorstellst.",
     img: teaserImages.moebel,
-    href: "/projekte#moebel",
+    href: "/moebel-nach-mass-trier",
   },
 ];
 
