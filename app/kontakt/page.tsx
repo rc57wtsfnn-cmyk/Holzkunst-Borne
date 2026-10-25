@@ -240,6 +240,7 @@ export default function KontaktPage() {
                     <option>Treppe</option>
                     <option>Parkett / Boden</option>
                     <option>Maßmöbel</option>
+                    <option>Massivholztisch/Monolith-Tisch</option>
                     <option>Tür</option>
                     <option>Aufarbeitung</option>
                     <option>Anderes</option>
